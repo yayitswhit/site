@@ -9,14 +9,21 @@ h1 {
 }
 
 .container {
+	width: 100%;
   position: relative;
 }
 
-.dummy {
+p {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+}
+
+.inner-box {
 	background-color: blue;
-	width: 50px;
-	height: 50px;
-	float: right;
+	width: 33.33%;
+	position: relative;
+	top: 
 }
 
 p {
@@ -37,6 +44,11 @@ p {
 		width: 33.33%;
 		float: left;
 	}
+
+	.inner-box {
+		position: relative;
+		background-color: blue;
+	}
 }
 
 /**** Tablet Site ****/
@@ -45,6 +57,8 @@ p {
 		width:  33.33%;
 		float: left;
 	}
+
+	
 
 	.third_box {
 		clear: both;
