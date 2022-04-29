@@ -1,3 +1,36 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.dummy {
+	background-color: blue;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+p {
+  background-color: #A52A2A;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color: white;
+  border: 1px solid black;
+  text-align: right;
+}
+
 /**** Desktop Site ****/ 
 @media (min-width: 992px) {
 	.col-lg-3 {
