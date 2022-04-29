@@ -8,22 +8,17 @@ h1 {
 	text-align: center;
 }
 
-.container {
+/*.container {
 	width: 100%;
   position: relative;
-}
-
-p {
-  width: 50px;
-  height: 50px;
-  border: 1px solid black;
-}
+}*/
 
 .inner-box {
 	background-color: blue;
 	width: 33.33%;
 	position: relative;
-	top: 
+	top: 19px;
+	text-align: right;
 }
 
 p {
@@ -44,11 +39,6 @@ p {
 		width: 33.33%;
 		float: left;
 	}
-
-	.inner-box {
-		position: relative;
-		background-color: blue;
-	}
 }
 
 /**** Tablet Site ****/
@@ -57,7 +47,6 @@ p {
 		width:  33.33%;
 		float: left;
 	}
-
 	
 
 	.third_box {
